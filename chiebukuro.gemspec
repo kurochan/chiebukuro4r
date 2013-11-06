@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Chiebukuro::VERSION
   spec.authors       = ["kurochan"]
   spec.email         = ["kuro@kurochan.org"]
-  spec.description   = %q{Yahoo Chiebukuro helper}
-  spec.summary       = %q{Yahoo Chiebukuro helper}
+  spec.description   = %q{Yahoo! Chiebukuro helper}
+  spec.summary       = %q{Yahoo! Chiebukuro helper}
   spec.homepage      = "https://github.com/kurochan/chiebukuro4r"
   spec.license       = "MIT"
 
