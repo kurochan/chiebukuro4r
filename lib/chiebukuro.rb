@@ -1,5 +1,14 @@
 require "chiebukuro/version"
+require 'chiebukuro/api'
+require 'chiebukuro/web'
 
 module Chiebukuro
-  # Your code goes here...
+  class Chiebukuro
+    include ChiebukuroAPI
+    include ChiebukuroWeb
+
+    def initialize(appid)
+      @appid = appid
+    end
+  end
 end

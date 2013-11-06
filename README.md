@@ -1,6 +1,7 @@
 # Chiebukuro
 
-TODO: Write a gem description
+Yahoo!知恵袋をrubyで扱いやすくしたものです。
+知恵袋のAPIを使って情報を取得し、また取得できない種類のものについてはスクレイピングをして取得します。
 
 ## Installation
 
